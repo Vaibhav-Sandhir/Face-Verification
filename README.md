@@ -22,16 +22,6 @@ For a seamless user experience, I've developed a user interface using Streamlit.
 
 [You can add more details about your project structure here]
 
-## Setup and Installation
-
-[Include instructions for setting up and running your project]
-
-## Usage
-
-[Provide information on how to use your face verification system]
-
 ## Future Improvements
 
 Implement Liveliness Detection to ensure security
-
-
