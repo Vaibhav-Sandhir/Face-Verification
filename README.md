@@ -33,5 +33,5 @@ For a seamless user experience, I've developed a user interface using Streamlit.
 ## Future Improvements
 
 Implement Liveliness Detection to ensure security
-[List any planned enhancements or potential areas for expansion]
+
 
