@@ -19,8 +19,21 @@ To store and manage user data efficiently, I've integrated MongoDB as my databas
 For a seamless user experience, I've developed a user interface using Streamlit. This powerful Python library enables me to create an interactive and responsive web application for my face verification system. Users can easily upload images, perform verifications, and view results through this intuitive interface.
 
 ## Project Structure
+The face verification pipeline in this project is divided into two main parts:
 
-[You can add more details about your project structure here]
+### 1. Image Capture and Face Recognition
+
+- **Image Capture**: The process begins with capturing an image through the webcam. This captured image may contain one or more faces.
+- **Face Recognition**: The captured image is then passed to a pre-trained ResNet34 model, which is fine-tuned for face recognition. The model identifies and extracts the face from the image, isolating it for further processing.
+
+### 2. Face Verification
+
+- **Siamese Neural Network**: The extracted face image is input into a Siamese neural network developed in PyTorch. The network generates embeddings for the face and compares these embeddings with those stored in the database.
+- **Verification Process**: The network determines whether the face matches any registered individuals in the database, verifying the identity of the person.
+
+### Data Storage and Retrieval
+
+- **MongoDB**: MongoDB is used to store data about all registered individuals, including their facial embeddings and metadata. If an image is verified, the relevant data is retrieved from the database to confirm the identity of the person.
 
 ## Future Improvements
 
