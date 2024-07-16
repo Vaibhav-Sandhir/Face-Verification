@@ -35,6 +35,9 @@ The face verification pipeline in this project is divided into two main parts:
 
 - **MongoDB**: MongoDB is used to store data about all registered individuals, including their facial embeddings and metadata. If an image is verified, the relevant data is retrieved from the database to confirm the identity of the person.
 
+## Code Flow Diagram
+
+
 ## Future Improvements
 
 Implement Liveliness Detection to ensure security
