@@ -44,8 +44,8 @@ The face verification pipeline in this project is divided into two main parts:
 ![Pipeline](pipeline.png)
 
 ### Open Source Code used
-- Pre Trained MTCNN and InceptionResNet taken from \href{https://github.com/timesler/facenet-pytorch}
-- Online Mining for Triplet loss taken from \href{https://github.com/KinWaiCheuk/pytorch-triplet-loss/tree/master}
+- Pre-trained MTCNN and InceptionResNet taken from [facenet-pytorch](https://github.com/timesler/facenet-pytorch)
+- Online Mining for Triplet loss taken from [pytorch-triplet-loss](https://github.com/KinWaiCheuk/pytorch-triplet-loss/tree/master)
 
 ## Future Improvements
 
