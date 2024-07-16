@@ -43,6 +43,10 @@ The face verification pipeline in this project is divided into two main parts:
 ### Verification Pipeline
 ![Pipeline](pipeline.png)
 
+### Open Source Code used
+- Pre Trained MTCNN and InceptionResNet taken from \href{https://github.com/timesler/facenet-pytorch}
+- Online Mining for Triplet loss taken from \href{https://github.com/KinWaiCheuk/pytorch-triplet-loss/tree/master}
+
 ## Future Improvements
 
 Implement Liveliness Detection to ensure security
