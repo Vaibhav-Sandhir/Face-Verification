@@ -23,12 +23,12 @@ The face verification pipeline in this project is divided into two main parts:
 
 ### 1. Image Capture and Face Recognition
 
-- **Image Capture**: The process begins with capturing an image through the webcam. This captured image may contain one or more faces.
-- **Face Recognition**: The captured image is then passed to a pre-trained ResNet34 model, which is fine-tuned for face recognition. The model identifies and extracts the face from the image, isolating it for further processing.
+- **Image Capture**: The process begins with capturing an image through the webcam.
+- **Face Recognition**: The captured image is then passed to a pre-trained MTCNN model, which is fine-tuned for face recognition. The model identifies and extracts the face from the image, isolating it for further processing.
 
 ### 2. Face Verification
 
-- **Siamese Neural Network**: The extracted face image is input into a Siamese neural network developed in PyTorch. The network generates embeddings for the face and compares these embeddings with those stored in the database.
+- **Siamese Neural Network**: A pre-trained ResNet18 model was used as a backbone for the Siamese Neural Network. The extracted face image is input into a Siamese neural network developed in PyTorch. The network generates embeddings for the face and compares these embeddings with those stored in the database.
 - **Verification Process**: The network determines whether the face matches any registered individuals in the database, verifying the identity of the person.
 
 ### Data Storage and Retrieval
