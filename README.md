@@ -41,6 +41,7 @@ The face verification pipeline in this project is divided into two main parts:
 ![Preparation](preparation.png)
 
 ### Verification Pipeline
+![Pipeline](pipeline.png)
 
 ## Future Improvements
 
