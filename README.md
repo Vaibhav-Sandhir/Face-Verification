@@ -40,7 +40,7 @@ The face verification pipeline in this project is divided into two main parts:
 ### Preparation
 ![Preparation](preparation.png)
 
-### Actual Working of 
+### Verification Pipeline
 
 ## Future Improvements
 
