@@ -28,14 +28,14 @@ The face verification pipeline in this project is divided into two main parts:
 
 ### 2. Face Verification
 
-- **Siamese Neural Network**: A pre-trained ResNet18 model was used as a backbone for the Siamese Neural Network. The extracted face image is input into a Siamese neural network developed in PyTorch. The network generates embeddings for the face and compares these embeddings with those stored in the database.
+- **Siamese Neural Network**: A pre-trained ResNet model was used as a backbone for the Siamese Neural Network. The extracted face image is input into a Siamese neural network developed in PyTorch. The network generates embeddings for the face and compares these embeddings with those stored in the database.
 - **Verification Process**: The network determines whether the face matches any registered individuals in the database, verifying the identity of the person.
 
 ### Data Storage and Retrieval
 
 - **MongoDB**: MongoDB is used to store data about all registered individuals, including their facial embeddings and metadata. If an image is verified, the relevant data is retrieved from the database to confirm the identity of the person.
 
-## Code Flow Diagram
+## Implementation Details
 
 
 ## Future Improvements
